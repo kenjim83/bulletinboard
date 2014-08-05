@@ -1,0 +1,88 @@
+// Place all the styles related to the posts controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+
+a {
+  margin: 10px;
+}
+
+#notice {
+  padding: 20px 20px;
+  margin: 5px 5px;
+  text-align: center;
+  background-color: #99FF99;
+}
+
+.container {
+  width: 800px;
+  margin: 0 auto;
+  padding: 10px 20px;
+  border: 1px solid black;
+  background-color: white;
+}
+
+.flat-table {
+  display: block;
+  font-family: sans-serif;
+  -webkit-font-smoothing: antialiased;
+  font-size: 115%;
+  overflow: auto;
+  width: auto;
+
+  th {
+    background-color: rgb(112, 196, 105);
+    color: white;
+    font-weight: normal;
+    padding: 20px 30px;
+    text-align: center;
+  }
+  td {
+    background-color: rgb(238, 238, 238);
+    color: rgb(111, 111, 111);
+    padding: 20px 30px;
+  }
+    }
+
+
+  .customBtn {
+    display: inline-block;
+    background: #dd4b39;
+    color: white;
+    width: 165px;
+    border-radius: 5px;
+    white-space: nowrap;
+    padding: 10px 10px;
+    text-align: center;
+    text-decoration: none;
+  }
+  .customBtn:hover {
+    background: #e74b37;
+    cursor: hand;
+  }
+
+  .green {
+    background: rgb(112, 196, 105);
+  }
+
+  span.label {
+    font-weight: bold;
+  }
+  span.icon {
+    background: url('/+/images/branding/btn_red_32.png') transparent 5px 50% no-repeat;
+    display: inline-block;
+    vertical-align: middle;
+    width: 35px;
+    height: 35px;
+    border-right: #bb3f30 1px solid;
+  }
+  span.buttonText {
+    display: inline-block;
+    vertical-align: middle;
+    padding-left: 35px;
+    padding-right: 35px;
+    font-size: 14px;
+    font-weight: bold;
+    /* Use the Roboto font that is loaded in the <head> */
+    font-family: 'Roboto',arial,sans-serif;
+  }

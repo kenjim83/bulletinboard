@@ -1,0 +1,6 @@
+<h1><center>Sign In</center></h1>
+
+<%= form_for(:session, url: sessions_path) do |f| %>
+  Email: <%= f.text_field :email %>
+  <%= f.submit 'Sign In', method: :post %>
+<% end %>
