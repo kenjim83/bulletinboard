@@ -3,7 +3,7 @@ Rails.application.routes.draw do
   resources :users, only: [:index, :new, :create]
 
   get 'home/show'
-
+  get 'signup', to: 'users#new'
   get 'signin', to: 'sessions#new'
   post 'signin', to: 'sessions#signin'
   get 'auth/:provider/callback', to: 'sessions#google_auth'
