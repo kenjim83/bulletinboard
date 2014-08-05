@@ -5,6 +5,12 @@
 
 a {
   margin: 10px;
+  text-decoration: none;
+}
+
+#navbar {
+  background: #5E6EA6;
+  width: 100%;
 }
 
 #notice {
@@ -18,14 +24,11 @@ a {
   width: 800px;
   margin: 0 auto;
   padding: 10px 20px;
-  border: 1px solid black;
   background-color: white;
 }
 
 .flat-table {
   display: block;
-  font-family: sans-serif;
-  -webkit-font-smoothing: antialiased;
   font-size: 115%;
   overflow: auto;
   width: auto;
@@ -60,7 +63,12 @@ a {
     background: #e74b37;
     cursor: hand;
   }
-
+  .customBtn {
+    color: white;
+  }
+  .customBtn:visited {
+    color: white;
+  }
   .green {
     background: rgb(112, 196, 105);
   }
@@ -83,6 +91,4 @@ a {
     padding-right: 35px;
     font-size: 14px;
     font-weight: bold;
-    /* Use the Roboto font that is loaded in the <head> */
-    font-family: 'Roboto',arial,sans-serif;
   }

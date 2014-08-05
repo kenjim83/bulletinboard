@@ -22,8 +22,8 @@
         <td><%= post.content %></td>
         <td><%= post.user.name %></td>
         <% if current_user %>
-          <td><%= link_to 'Edit', edit_post_path(post) if post.user == current_user %></td>
-          <td><%= link_to 'Destroy', post, method: :delete, data: { confirm: 'Are you sure?' } if post.user == current_user  %></td>
+          <td><%= link_to image_tag("edit.png", :border => 0), edit_post_path(post) if post.user == current_user %></td>
+          <td><%= link_to image_tag("delete.png", :border => 0), post, method: :delete, data: { confirm: 'Are you sure?' } if post.user == current_user  %></td>
         <% end %>
       </tr>
     <% end %>
