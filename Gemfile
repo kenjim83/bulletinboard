@@ -10,7 +10,8 @@ gem 'pg', '~> 0.17.1'
 gem 'unicorn'
 
 gem "omniauth-google-oauth2", "~> 0.2.1"
-
+# gem 'gdata', git: 'https://github.com/agentrock/gdata.git'
+gem 'google-api-client'
 # Use SCSS for stylesheets
 gem 'sass-rails', '~> 4.0.3'
 # Use Uglifier as compressor for JavaScript assets
@@ -33,6 +34,7 @@ gem 'sdoc', '~> 0.4.0',          group: :doc
 group :development do
   gem 'spring'
   gem 'debugger', '~> 1.6.8'
+  gem 'awesome_print', '~> 1.2.0'
 end
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'

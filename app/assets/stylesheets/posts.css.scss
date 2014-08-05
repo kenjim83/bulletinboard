@@ -9,7 +9,9 @@ a {
 }
 
 #navbar {
-  background: #5E6EA6;
+  position: relative;
+  z-index: 1000;
+  background: #EFEFEF;
   width: 100%;
 }
 
@@ -17,7 +19,11 @@ a {
   padding: 20px 20px;
   margin: 5px 5px;
   text-align: center;
-  background-color: #99FF99;
+  width: 50%;
+  margin: 0 auto;
+  margin-bottom: 10px;
+  color: rgb(112, 196, 105);
+  border: 5px solid rgb(112, 196, 105);
 }
 
 .container {
@@ -25,6 +31,9 @@ a {
   margin: 0 auto;
   padding: 10px 20px;
   background-color: white;
+  -webkit-box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.75);
+box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.75);
 }
 
 .flat-table {

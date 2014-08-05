@@ -4,7 +4,6 @@ class SessionsController < ApplicationController
   end
 
   def google_auth
-    env["omniauth.auth"]
     user = User.from_omniauth(env["omniauth.auth"])
     session[:user_id] = user.id
     redirect_to root_path
