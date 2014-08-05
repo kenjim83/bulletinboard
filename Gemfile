@@ -10,6 +10,7 @@ gem 'pg', '~> 0.17.1'
 gem 'unicorn'
 
 gem "omniauth-google-oauth2", "~> 0.2.1"
+gem 'gdata', '~> 1.1.2'
 
 # Use SCSS for stylesheets
 gem 'sass-rails', '~> 4.0.3'
